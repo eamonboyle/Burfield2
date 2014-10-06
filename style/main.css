@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+p {
+  font-size: 1em;
+}
+
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: .9em;
+  background: #0b80a7;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* html .clearfix {
+  zoom: 1;
+}
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1;
+}
+
+/* IE7 */
+.nav_dots {
+  text-align: right;
+}
+
+html, body {
+  font-size: .9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #0b80a7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0b80a7;
+  text-decoration: none;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+.welcome_block, .services_block, .news_block, .testimonial_block, .gallery_client_block {
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+
+.top_bar {
+  background: #faf9f8;
+  padding: 10px 5px;
+}
+.top_bar .top_bar_bottom {
+  position: relative;
+}
+.top_bar .company_info {
+  text-align: right;
+  color: #0b80a7;
+  display: block;
+}
+.top_bar .main_nav {
+  text-align: right;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+}
+.top_bar .main_nav ul li {
+  display: inline;
+  margin-right: 25px;
+}
+.top_bar .main_nav ul li a {
+  color: #333;
+}
+.top_bar .mobile_nav_button {
+  display: none;
+}
+
+.banner {
+  margin-top: 30px;
+}
+
+.news_block {
+  background: #faf9f8;
+}
+.news_block img {
+  padding-bottom: 10px;
+}
+
+.testimonial_block .testimonial {
+  padding: 20px;
+  background: #faf9f8;
+  color: #000;
+}
+.testimonial_block .testimonial .testimonial_name {
+  text-align: right;
+  font-weight: bold;
+  margin: 0;
+}
+
+.gallery_block img, .client_block img {
+  width: 100%;
+}
+.gallery_block .gallery_row, .gallery_block .client_row, .client_block .gallery_row, .client_block .client_row {
+  margin-bottom: 10px;
+}
+
+.twitter_update .twitter_container {
+  background: #faf9f8;
+  padding: 10px 20px;
+  position: relative;
+  bottom: -70px;
+}
+.twitter_update .twitter_container .twitter_image {
+  padding-top: 10px;
+}
+.twitter_update .twitter_container p {
+  margin: 0;
+}
+.twitter_update .twitter_container .twitter_time {
+  font-size: .8em;
+  color: blue;
+}
+
+.main_footer {
+  padding: 90px 0px 20px 0px;
+  background: #2d2a2b;
+  color: #FFF;
+}
+.main_footer h2 {
+  color: #FFF;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.main_footer .contact_details {
+  padding-top: 65px;
+}
+.main_footer .contact_details p {
+  margin: 0;
+}
+
+.bottom_footer {
+  background: #050607;
+  color: #FFF;
+  padding: 10px 0px;
+}
+.bottom_footer a {
+  color: #FFF;
+  font-weight: normal;
+}
+.bottom_footer_left {
+  padding-top: 5px;
+}
+.bottom_footer_right {
+  text-align: right;
+}
+
+@media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
+  .top_bar .main_nav, .top_bar .company_info {
+    display: none;
+  }
+  .top_bar .mobile_nav_button {
+    display: block;
+    text-align: right;
+  }
+  .top_bar .mobile_nav_button:hover {
+    cursor: pointer;
+  }
+
+  .welcome_block, .services_block, .news_block, .testimonial_block, .gallery_client_block {
+    margin: 0px;
+  }
+
+  .services_block, .news_block, .main_footer, .bottom_footer, .bottom_footer_right {
+    text-align: center;
+  }
+
+  .services_block img, .news_block img {
+    width: 100%;
+  }
+
+  .gallery_client_block, .twitter_container {
+    display: none;
+  }
+
+  .main_footer {
+    padding: 10px;
+  }
+  .main_footer_left {
+    margin-bottom: 10px;
+  }
+}
