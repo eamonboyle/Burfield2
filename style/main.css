@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Define Variables and Typography */
 h1 {
   font-size: 2em;
   font-weight: bold;
@@ -73,6 +74,8 @@ a:hover {
   padding: 20px 0px;
 }
 
+/*============================================*/
+/* Top bar styling */
 .top_bar {
   background: #faf9f8;
   padding: 10px 5px;
@@ -104,10 +107,14 @@ a:hover {
   display: none;
 }
 
+/*===========================================*/
+/* Banner Styling */
 .banner {
   margin-top: 30px;
 }
 
+/*============================================*/
+/* News Block Styling */
 .news_block {
   background: #faf9f8;
 }
@@ -115,6 +122,8 @@ a:hover {
   padding-bottom: 10px;
 }
 
+/*============================================*/
+/* Testimonial Block Styling */
 .testimonial_block .testimonial {
   padding: 20px;
   background: #faf9f8;
@@ -126,6 +135,8 @@ a:hover {
   margin: 0;
 }
 
+/*============================================*/
+/* Gallery Block Styling */
 .gallery_block img, .client_block img {
   width: 100%;
 }
@@ -133,6 +144,8 @@ a:hover {
   margin-bottom: 10px;
 }
 
+/*============================================*/
+/* Twitter Block Styling */
 .twitter_update .twitter_container {
   background: #faf9f8;
   padding: 10px 20px;
@@ -150,6 +163,8 @@ a:hover {
   color: blue;
 }
 
+/*============================================*/
+/* Main Footer Styling */
 .main_footer {
   padding: 90px 0px 20px 0px;
   background: #2d2a2b;
@@ -167,6 +182,8 @@ a:hover {
   margin: 0;
 }
 
+/*============================================*/
+/* Bottom Footer Styling */
 .bottom_footer {
   background: #050607;
   color: #FFF;
@@ -183,6 +200,8 @@ a:hover {
   text-align: right;
 }
 
+/*============================================*/
+/* Start of Mobile Styling */
 @media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
   .top_bar .main_nav, .top_bar .company_info {
     display: none;
@@ -218,3 +237,4 @@ a:hover {
     margin-bottom: 10px;
   }
 }
+/*============================================*/

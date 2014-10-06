@@ -1,5 +1,7 @@
 * {margin: 0; padding: 0;}
 
+/* Define Variables and Typography */
+
 $font_colour: #333;
 $main_font: 'Open Sans', sans-serif;
 $link_colour: rgba(11,128,167,1);
@@ -52,6 +54,11 @@ a:hover {
 	padding: 20px 0px;
 }
 
+/*============================================*/
+
+
+/* Top bar styling */
+
 .top_bar {
 	background: rgba(250,249,248,1);
 	padding: 10px 5px;
@@ -82,9 +89,20 @@ a:hover {
 	}
 }
 
+/*===========================================*/
+
+
+/* Banner Styling */
+
 .banner {
 	margin-top: 30px;
 }
+
+/*============================================*/
+
+
+
+/* News Block Styling */
 
 .news_block {
 	background: $grey_background;
@@ -92,6 +110,12 @@ a:hover {
 		padding-bottom: 10px;
 	}
 }
+
+
+/*============================================*/
+
+
+/* Testimonial Block Styling */
 
 .testimonial_block {
 	.testimonial {
@@ -106,6 +130,12 @@ a:hover {
 	}
 }
 
+
+/*============================================*/
+
+
+/* Gallery Block Styling */
+
 .gallery_block, .client_block {
 	img {
 		width: 100%;
@@ -114,6 +144,11 @@ a:hover {
 		margin-bottom: 10px;
 	}
 }
+
+
+/*============================================*/
+
+/* Twitter Block Styling */
 
 .twitter_update {
 	.twitter_container {
@@ -134,6 +169,11 @@ a:hover {
 	}
 }
 
+
+/*============================================*/
+
+/* Main Footer Styling */
+
 .main_footer {
 	padding: 90px 0px 20px 0px;
 	background: $main_footer_bg;
@@ -150,6 +190,11 @@ a:hover {
 		}
 	}
 }
+
+
+/*============================================*/
+
+/* Bottom Footer Styling */
 
 .bottom_footer {
 	background: $bottom_footer_bg;
@@ -168,49 +213,55 @@ a:hover {
 }
 
 
+/*============================================*/
 
+
+/* Start of Mobile Styling */
 
 @media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
 
 
-.top_bar {
-	.main_nav, .company_info {
-		display: none;
-	}
-	.mobile_nav_button {
-		display: block;
-		text-align: right;
-		&:hover {
-			cursor: pointer;
+	.top_bar {
+		.main_nav, .company_info {
+			display: none;
+		}
+		.mobile_nav_button {
+			display: block;
+			text-align: right;
+			&:hover {
+				cursor: pointer;
+			}
 		}
 	}
-}
 
 
 
-.welcome_block, .services_block, .news_block, .testimonial_block, .gallery_client_block {
-	margin: 0px;
-}
-
-.services_block, .news_block, .main_footer, .bottom_footer, .bottom_footer_right {
-	text-align: center;
-}
-
-.services_block, .news_block {
-	img {
-		width: 100%;
+	.welcome_block, .services_block, .news_block, .testimonial_block, .gallery_client_block {
+		margin: 0px;
 	}
-}
 
-.gallery_client_block, .twitter_container {
-	display: none;
-}
-
-.main_footer {
-	padding: 10px;
-	&_left {
-		margin-bottom: 10px;
+	.services_block, .news_block, .main_footer, .bottom_footer, .bottom_footer_right {
+		text-align: center;
 	}
-}
+
+	.services_block, .news_block {
+		img {
+			width: 100%;
+		}
+	}
+
+	.gallery_client_block, .twitter_container {
+		display: none;
+	}
+
+	.main_footer {
+		padding: 10px;
+		&_left {
+			margin-bottom: 10px;
+		}
+	}
 
 }
+
+
+/*============================================*/
